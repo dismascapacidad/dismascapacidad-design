@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>dismascapacidad-design — vista previa</title>
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="preview.css">
+</head>
+<body>
+  <header class="bar">
+    <h1>dismascapacidad-design</h1>
+    <button id="toggle" type="button">Alternar claro / oscuro</button>
+  </header>
+  <main>
+    <section>
+      <h2>Tipografía — DM Sans</h2>
+      <p style="font-weight:400">400 · Configurá tu dispositivo sin salir del ecosistema. ñ á é í ó ú ü ¿ ¡</p>
+      <p style="font-weight:500">500 · Configurá tu dispositivo sin salir del ecosistema.</p>
+      <p style="font-weight:600">600 · Configurá tu dispositivo sin salir del ecosistema.</p>
+      <p style="font-weight:700">700 · Configurá tu dispositivo sin salir del ecosistema.</p>
+      <p style="font-weight:800">800 · Configurá tu dispositivo sin salir del ecosistema.</p>
+    </section>
+    <section>
+      <h2>Tokens de marca</h2>
+      <div id="tokens" class="grid"></div>
+    </section>
+    <section>
+      <h2>Roles del tema activo</h2>
+      <div id="roles" class="grid"></div>
+    </section>
+    <section>
+      <h2>Forma y sombra</h2>
+      <div class="shapes">
+        <div class="shape" style="border-radius:var(--radius-sm)">radius-sm</div>
+        <div class="shape" style="border-radius:var(--radius-md)">radius-md</div>
+        <div class="shape" style="border-radius:var(--radius-lg)">radius-lg</div>
+        <div class="shape" style="box-shadow:var(--shadow-sm)">shadow-sm</div>
+        <div class="shape" style="box-shadow:var(--shadow-lg)">shadow-lg</div>
+      </div>
+    </section>
+  </main>
+  <script src="preview.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "dismascapacidad-design",
+  "version": "1.0.0",
+  "description": "Estilos compartidos (tokens, tema y tipografía) de los productos dismascapacidad",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dismascapacidad/dismascapacidad-design.git"
+  }
+}
